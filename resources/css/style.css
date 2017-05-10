@@ -2,3 +2,73 @@ body {
 	font-family: Helvetica;
 	text-align: center;
 }
+
+.header {
+	background-image: url('../images/the-flatiron-building.png');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+}
+
+.header h1 {
+	font-size: 70px;
+	font-weight: bold;
+	color: white;
+}
+
+.header ul li{
+	display: block;
+	margin: 16px 0px;
+}
+
+.header a{
+	font-size: 18px;
+	color: white;
+}
+
+.content h2{
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.content h3{
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.content p{
+	font-size: 14px;
+}
+
+.hero{
+	background-image: url('../images/the-flatiron-building.png');
+	background-attachement:fixed;
+	background-size: cover;
+	background-position: top left;
+}
+
+.hero h2{
+	font-size: 23px;
+	font-weight: bold;
+	color: white;
+}
+
+.footer{
+	font-size: 11px;
+	color: white;
+	background-color: dimgray;
+	text-align: left;
+}
+
+.footer ul{
+	padding: 0;
+	margin: 0;
+}
+
+.footer ul, .footer ul li{
+	display; inline;
+}
+
+.footer a{
+	color: white;
+}
